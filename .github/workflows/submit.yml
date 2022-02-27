@@ -1,0 +1,19 @@
+name: Submit Extension
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - run: npm ci
+      - run: npm run build --if-present
+      - run: npm test
+      - name: Browser Plugin Publish
+        uses: plasmo-corp/bpp@v1
+        with:
+          keys: ${{ secrets.SUBMIT_KEYS }}
+          version-file: manifest.json
