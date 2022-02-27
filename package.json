@@ -37,7 +37,7 @@
     "stylelint-config-standard": "^24.0.0"
   },
   "dependencies": {
-    "@stablelib/scrypt": "^1.0.0",
+    "@stablelib/scrypt": "^1.0.1",
     "vue": "^3.0.4"
   }
 }
