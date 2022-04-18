@@ -19,7 +19,7 @@
     "@rollup/plugin-alias": "^3.1.1",
     "@rollup/plugin-babel": "^5.2.2",
     "@rollup/plugin-commonjs": "^13.0.2",
-    "@rollup/plugin-node-resolve": "^8.4.0",
+    "@rollup/plugin-node-resolve": "^13.2.1",
     "adm-zip": "^0.5.9",
     "builder": "github:palant/builder#v0.1.4",
     "chai": "^4.3.6",
