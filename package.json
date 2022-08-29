@@ -23,7 +23,7 @@
     "adm-zip": "^0.5.9",
     "builder": "github:palant/builder#v0.1.4",
     "chai": "^4.3.6",
-    "eslint": "^8.8.0",
+    "eslint": "^8.23.0",
     "eslint-plugin-json": "^2.1.2",
     "eslint-plugin-vue": "^7.3.0",
     "html-validate": "^6.3.1",
